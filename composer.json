@@ -1,0 +1,17 @@
+{
+    "name": "gaeun/study",
+    "description": "first project bookhive",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Gaeun\\Study\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gaeun Son",
+            "email": "gaeun0104@naver.com"
+        }
+    ],
+    "require": {}
+}

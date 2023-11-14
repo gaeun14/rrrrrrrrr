@@ -1,0 +1,62 @@
+/* 전체 페이지 스타일 */
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* 수평 중앙 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    height: 100vh; /* 화면 높이를 100%로 설정 */
+}
+
+/* 테이블 스타일 */
+table {
+    width: 800px;
+    border-collapse: collapse;
+}
+
+/* 테이블 헤더 스타일 */
+th {
+    background-color: #333;
+    color: #fff;
+    text-align: center; /* 중앙 정렬로 변경 */
+    padding: 10px;
+}
+
+/* 테이블 셀 스타일 */
+td {
+    padding: 10px;
+}
+
+/* 텍스트 입력 필드 스타일 */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* 제출 버튼 스타일 */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* 버튼과 상자 사이에 여백 추가 */
+}
+
+/* 제출 버튼 마우스 호버 스타일 */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* 텍스트 영역 스타일 */
+textarea {
+    height: 300px;
+    resize: vertical;
+}
